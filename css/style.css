@@ -20,6 +20,7 @@
 body {
     padding-top: 50px;
     font-family: sans-serif;
+    background-color: black;
 }
 
 .container {
@@ -28,9 +29,6 @@ body {
     margin: 0 auto;
 }
 
-/* main {
-    background-color: black;
-} */
 
 .flex {
     display: flex;
@@ -47,6 +45,7 @@ header {
     left: 0;
     right: 0;
     color: var(--white);
+    z-index: 1;
 }
 
 header > .flex {
@@ -83,6 +82,7 @@ header > .flex {
 
 .row {
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 img {
@@ -109,5 +109,6 @@ footer {
     left: 0;
     bottom: 0;
     right: 0;
+    color: var(--white);
 }
 
